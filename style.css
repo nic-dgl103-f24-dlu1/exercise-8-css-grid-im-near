@@ -49,7 +49,7 @@ body {
 main {
   grid-area: main;
   padding: 20px;
-  background-color: #f1f1f1;
+  background-color: #a1a1a1;
 }
 
 main section {
@@ -71,4 +71,72 @@ main img {
 
 #services ul li {
   margin-bottom: 10px;
+}
+
+/* Aside styling */
+
+aside {
+  grid-area: aside;
+  background-color: #2196f3;
+  padding: 20px;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+aside h3 {
+  font-size: 1.5em;
+  margin-top: 0;
+  color: #ffeb3b; 
+}
+
+aside article {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #fff;
+}
+
+aside article h4 {
+  font-size: 1.2em;
+  color: #4bff3b; 
+  margin: 10px 0 5px;
+}
+
+aside article p {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  color: #e0f7fa; 
+}
+
+aside article a {
+  display: inline-block;
+  margin-top: 5px;
+  font-weight: bold;
+  color: #ffe0b2;
+  text-decoration: underline;
+}
+
+aside img {
+  width: 100%;
+  max-width: 300px;
+  margin-top: 20px;
+  border: 2px solid #fff;
+}
+
+aside p {
+  font-size: 0.9rem;
+  margin: 10px 0;
+}
+
+aside p strong {
+  color: #79f07d;
+}
+
+aside a {
+  color: #79f07d;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+aside a:hover {
+  color: #1bc021;
 }
