@@ -140,3 +140,41 @@ aside a {
 aside a:hover {
   color: #1bc021;
 }
+
+/* Footer styling */
+footer {
+  grid-area: footer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #333;
+  padding: 20px;
+  color: white;
+  font-size: 0.9rem;
+}
+
+footer p, footer nav ul, .social-media {
+  margin: 5px 0;
+}
+
+footer a {
+  color: #79f07d;
+  text-decoration: none;
+}
+
+footer nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+footer nav ul li {
+  margin: 0 10px;
+}
+
+.social-media a {
+  margin: 0 5px;
+  color: #79f07d;
+  font-weight: bold;
+}
