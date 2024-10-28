@@ -43,3 +43,32 @@ body {
     text-decoration: none;
     font-weight: bold;
   }
+
+/* Main styling */
+
+main {
+  grid-area: main;
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+main section {
+  margin-bottom: 40px;
+}
+
+main section h2, main section h3 {
+  color: #333;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+main img {
+  width: 100%;
+  max-width: 1400px;
+  margin-top: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+#services ul li {
+  margin-bottom: 10px;
+}
