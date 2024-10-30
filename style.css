@@ -4,23 +4,23 @@ body {
   grid-template-columns: 1fr 3fr 1fr;
   grid-template-rows: auto 1fr auto;
   grid-template-areas:
-      "header header header"
-      "main main aside"
-      "footer footer footer";
+    "header header header"
+    "main main aside"
+    "footer footer footer";
   gap: 15px;
   padding: 0 20px;
   font-family: Arial, sans-serif;
-  color: #2c3e50; 
-  background-color: #ecf0f1; 
+  color: #2c3e50;
+  background-color: #ecf0f1;
 }
 
 /* Header styling */
 header {
   grid-area: header;
   display: flex;
-  align-items: center;
+  align-items: center; /* I didn't read far enough ahead to realize we needed to center but this is an easy change thankfully. I think it looks better, anyway */
   justify-content: space-between;
-  background-color: #34495e; 
+  background-color: #34495e;
   padding: 20px;
   color: #ecf0f1;
   border-radius: 8px;
@@ -42,12 +42,12 @@ nav ul li a {
   color: #ecf0f1;
   text-decoration: none;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1em; /* Oh, me using rem thinking that it just didn't matter. I suppose it makes sense that it wouldn't apply without setting a html font size, hense root em. Learning is fun. */
   transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-  color: #2ecc71; 
+  color: #2ecc71;
 }
 
 /* Main styling */
@@ -55,7 +55,7 @@ main {
   grid-area: main;
   padding: 20px;
   background-color: #ffffff;
-  border-radius: 8px;
+  border-radius: 8px; /* Initially I didn't go with rounded corners, but the sharp corners were very offputting */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -63,21 +63,22 @@ main section {
   margin-bottom: 40px;
 }
 
-main section h2, main section h3 {
-  color: #34495e; 
-  font-size: 1.8rem;
+main section h2,
+main section h3 {
+  color: #34495e;
+  font-size: 1.8em;
   margin-bottom: 10px;
   text-align: left;
 }
 
 main p {
-  font-size: 1rem;
+  font-size: 1em;
   line-height: 1.6;
   margin-bottom: 15px;
 }
 
 main img {
-  width: 100%;
+  width: 100%; /* I thought to set a max width but I think it looks and works fine like this */
   max-width: 100%;
   margin-top: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -91,9 +92,9 @@ main img {
 /* Aside styling */
 aside {
   grid-area: aside;
-  background-color: #3498db; 
+  background-color: #075a92; /* I should have made this, or the text a bit darker but I liked how it looked to a degree, but this should help with readability. */
   padding: 20px;
-  color: #ecf0f1; 
+  color: #ecf0f1;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
 }
@@ -106,12 +107,12 @@ aside article {
 
 aside article h4 {
   font-size: 1.2em;
-  color: #2ecc71; 
+  color: #2ecc71;
   margin: 10px 0 5px;
 }
 
 aside article p {
-  font-size: 0.9rem;
+  font-size: 0.9em;
   line-height: 1.4;
 }
 
@@ -123,7 +124,7 @@ aside article a {
 }
 
 aside article a:hover {
-  color: #2ecc71; 
+  color: #2ecc71;
 }
 
 aside img {
@@ -141,14 +142,16 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #34495e; 
+  background-color: #34495e;
   padding: 20px;
   color: #ecf0f1;
-  font-size: 0.9rem;
+  font-size: 0.9em;
   border-radius: 8px;
 }
 
-footer p, footer nav ul, .social-media {
+footer p,
+footer nav ul,
+.social-media {
   margin: 5px 0;
 }
 

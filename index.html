@@ -4,11 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS Grid</title>
-    <link rel="stylesheet" href="style.css" /> <!--we've used styles.css for this so often I don't know why I just put style, must have been typing too fast-->
+    <link rel="stylesheet" href="style.css" />
+    <!--we've used styles.css for this so often I don't know why I just put style, must have been typing too fast-->
   </head>
   <body>
     <header>
-      <img src="images/dalamud.png" alt="Dalamud logo" class="logo" />
+      <img src="images/dalamud.png" alt="Dalamud logo" class="logo" /> <!--I'm glad that I changed this, my mother actually recommended that I write about something I know well, and FFXIV is one of those things.-->
       <nav>
         <ul>
           <li><a href="#home">Home</a></li>
@@ -20,57 +21,102 @@
     </header>
 
     <main>
-      <main>
-        <section id="about">
-          <h2>About Our FFXIV Services</h2>
-          <p>Welcome, Warrior of Light! Our services are tailored for both new and experienced players in <em>Final Fantasy XIV</em>. Whether you're just starting or looking to master advanced content, our team of seasoned players is here to guide you on your journey through Eorzea.</p>
-          <img src="images/landscape.jpg" alt="Eorzea landscape from FFXIV" />
-        </section>
-      
-        <section id="services">
-          <h2>Our Services</h2>
-          
-          <h3>1. In-Game Coaching</h3>
-          <p>Struggling with end-game content, savage or ultimate raids? Our team can help with:</p>
-          <ul>
-            <li>Job Optimization: Our team members are experts at reading xivanalysis, and can tell you where you can improve.</li>
-            <li>Raid Guides: Our toolboxes, and guides adhere to the current meta strategies, and our team can explain any points of confusion in a one on one tutoring session.</li>
-            <li>Leveling Assistance: Our team will tell you the best route of dungeons, or FATEs to do, on a level by level basis to get you toward your end goal of a maxed character.</li>
-          </ul>
-          <img src="images/coaching.jpg" alt="FFXIV coaching session" />
-      
-          <h3>2. Character Customization & Glamour Consultation</h3>
-          <p>Appearance is everything in FFXIV, and we offer specialized guidance on character customization:</p>
-          <ul>
-            <li>Glamour Consultations: We work hand in hand with Eorzeacollection to provide the most stylish fashion possible.</li>
-            <li>Character Re-designs: We know that sometimes the optimal character race for your job doesn't have good glamour, and we can solve that by recommending a better race.</li>
-            <li>Seasonal & Event Glamours: Our guides to seasonal events can help you bypass mogstation costs with ease.</li>
-          </ul>
-          <img src="images/glam.png" alt="FFXIV glamour customization" />
-        </section>
-      </main>
+      <!-- I went so long having a second <main> open because I'm so used to typing it myself, this is funny to me.-->
+      <section id="about">
+        <h2>About Our FFXIV Services</h2>
+        <p>
+          Welcome, Warrior of Light! Our services are tailored for both new and
+          experienced players in <em>Final Fantasy XIV</em>. Whether you're just
+          starting or looking to master advanced content, our team of seasoned
+          players is here to guide you on your journey through Eorzea.
+        </p>
+        <img src="images/landscape.jpg" alt="Eorzea landscape from FFXIV" /><!--I took these images myself so their sizes are very different-->
+      </section>
+
+      <section id="services">
+        <h2>Our Services</h2>
+
+        <h3>1. In-Game Coaching</h3> <!--I've seen a few sites about things like this so I took inspiration from them, and the services they offer.-->
+        <p>
+          Struggling with end-game content, savage or ultimate raids? Our team
+          can help with:
+        </p>
+        <ul>
+          <li>
+            Job Optimization: Our team members are experts at reading
+            xivanalysis, and can tell you where you can improve.
+          </li>
+          <li>
+            Raid Guides: Our toolboxes, and guides adhere to the current meta
+            strategies, and our team can explain any points of confusion in a
+            one on one tutoring session.
+          </li>
+          <li>
+            Leveling Assistance: Our team will tell you the best route of
+            dungeons, or FATEs to do, on a level by level basis to get you
+            toward your end goal of a maxed character.
+          </li>
+        </ul>
+        <img src="images/coaching.jpg" alt="FFXIV coaching session" />
+
+        <h3>2. Character Customization & Glamour Consultation</h3>
+        <p>
+          Appearance is everything in FFXIV, and we offer specialized guidance
+          on character customization:
+        </p>
+        <ul>
+          <li>
+            Glamour Consultations: We work hand in hand with Eorzeacollection to
+            provide the most stylish fashion possible.
+          </li>
+          <li>
+            Character Re-designs: We know that sometimes the optimal character
+            race for your job doesn't have good glamour, and we can solve that
+            by recommending a better race.
+          </li>
+          <li>
+            Seasonal & Event Glamours: Our guides to seasonal events can help
+            you bypass mogstation costs with ease. <!--Nobody really offers this, probably because it's easy, but to I think it's nice to avoid spending real money-->
+          </li>
+        </ul>
+        <img src="images/glam.png" alt="FFXIV glamour customization" />
+      </section>
     </main>
-    
-    <aside>     
+
+    <aside>
       <article>
         <h4>Crafting & Gathering</h4>
-        <p>Tips on how to play the market, including understanding in demand items, and what to sell to make all the gil you will ever require.</p>
+        <p>
+          Tips on how to play the market, including understanding in demand
+          items, and what to sell to make all the gil you will ever require.
+        </p>
         <a href="#crafting-guide">Learn more</a>
       </article>
-    
+
       <article>
         <h4>Guide to Savage / Ultimate raids</h4>
-        <p>Ready to challenge yourself? Learn about the most challenging raids in FFXIV, from Savage tier fights, to Ultimates, including, from mechanics to optimal party composition.</p>
+        <p>
+          Ready to challenge yourself? Learn about the most challenging raids in
+          FFXIV, from Savage tier fights, to Ultimates, including, from
+          mechanics to optimal party composition.
+        </p>
         <a href="#raid-guide">Discover more</a>
       </article>
-    
+
       <img src="images/mogstation_logo_na.png" alt="Mog station advert" />
-      <p><strong>Advertisement:</strong> Check out exclusive in-game items and mounts available in the FFXIV online store! Customize your experience with new glamours, mounts, and minions from the mog station.</p>
+      <p>
+        <strong>Advertisement:</strong><!--I should be using the strong tag a lot more in my work to make things pop out, this made that evident to me--> Check out exclusive in-game items and
+        mounts available in the FFXIV online store! Customize your experience
+        with new glamours, mounts, and minions from the mog station.
+      </p>
       <a href="#mogstation">Visit the Store</a>
     </aside>
-    
+
     <footer>
-      <p>Contact Us: <a href="#mail@mail.mail">support@ffxivservices.com</a> | Phone: +1-250-650-4324</p>
+      <p>
+        Contact Us: <a href="#mail@mail.mail">support@ffxivservices.com</a> | <!--Still not entirely sure I'm using the mail feature correctly but it seems to work.-->
+        Phone: +1-250-650-4324
+      </p>
       <nav>
         <ul>
           <li><a href="#home">Home</a></li>
@@ -79,9 +125,9 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-      <div class="social-media"> <!--I forgot I shouldn't actually make these link to things.-->
-        <a href="#Facebook">Facebook</a> |
-        <a href="#Twitter">Twitter</a> |
+      <div class="social-media">
+        <!--I forgot I shouldn't actually make these link to things.-->
+        <a href="#Facebook">Facebook</a> | <a href="#Twitter">Twitter</a> |
         <a href="#Instagram">Instagram</a>
       </div>
     </footer>
